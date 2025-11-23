@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+        <button 
+    onclick="window.location.href='team.html'" 
+    style="background-color: #2b6cb0; 
+           color: white; 
+           border: 2px solid #1e4e8c; 
+           border-radius: 8px; 
+           width: 160px; 
+           height: 50px; 
+           font-size: 16px; 
+           font-weight: bold; 
+           cursor: pointer; 
+           box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+           transition: 0.3s;">
+
+    Go to Team
+  </button>
+    </header>
+
+    <!-- Content and Layout -->
+    <div class="content">
+        <section id="intro">
+            <h2>About This Site</h2>
+             <p>This website demonstrates <span style="color: rgb(0, 255, 13); font-weight: bold;">basic HTML and CSS structure</span>  layout, and styling.</p>
+        </section>
+
+        <section id="lists">
+            <h3>Ordered and Unordered Lists</h3>
+            <div>
+                <p>Here is an <strong>ordered list</strong> of my favorite fruits:</p>
+                <ol>
+                    <li>Apple</li>
+                    <li>Mango</li>
+                    <li>Banana</li>
+                </ol>
+
+                <p>Here is an <strong>unordered list</strong> of my hobbies:</p>
+                <ul>
+                    <li>Reading</li>
+                    <li>Coding</li>
+                    <li>Traveling</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <!-- Form Section -->
+    <section id="contact-form">
+        <h3 class="h3cont">Contact Me</h3>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+   <footer>
+  <p>&copy; 2025 Our Simple Website | Designed by Group Alpha</p>
+
+  <!-- Social Media Icons -->
+  <div class="social-icons">
+    <a href="#" class="facebook" title="Facebook">F</a>
+    <a href="#" class="twitter" title="Twitter">X</a>
+    <a href="#" class="instagram" title="Instagram">I</a>
+    <a href="#" class="linkedin" title="LinkedIn">L</a>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
